@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#002266;
+}
+img{
+    overflow:hidden;
+    object-fit: cover;
+   
+}
+.header{
+    overflow:hidden;
+    background-color: black;;
+}
+.header a.logo{
+    font-size: 25px;
+    color: orange;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: width 2s;
+} 
+
+
+.header a{
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    text-decoration:none;
+    font-size:18px;
+    line-height:25px;
+    border-radius:4px;
+}
+.header a:hover{
+    background-color:orange;
+    color:black;
+}
+.header-right{
+    float:right;
+}
+.container{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+.Name{
+    position:absolute;
+    bottom:60px;
+    right:350px;
+    font-size: 40px;
+    font-weight:bold;
+}
+.work{
+    position:absolute;
+    bottom:8px;
+    right:150px;
+    font-size: 30px;
+}
+.image{
+    position:absolute;
+    left:300px;
+    top:80px;
+    z-index: 1;
+    margin-left:180px;
+    margin-top:200px;   
+    border-radius: 50;
+}
+.objective{
+    float:right;
+    position:absolute;
+    right:600px;
+    font-style: oblique;
+    margin-top:70px;
+   
+    color:white;
+}
+.obj{
+    float:right;
+    position:absolute;
+    right:875px;
+    font-style: oblique;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.obj:hover{
+    background-color: #dddddd;
+    color:white;
+    border-radius: 4px;
+
+}
+.button{
+    text-decoration:none;
+    float:right;
+    margin-top:230px;
+    position:absolute;
+    right:860px;
+    display:-webkit-box;
+    border:2px solid white;
+    border-radius:20px;
+    padding:12px;
+}
+.button a{
+    color: white;
+    text-decoration:none;
+}
+.button:hover{
+    background-color:orange;
+    transition:0.8s;
+}
+footer{
+    background-color:#602020;
+    padding:10px;
+    text-align:center;
+    color:white;
+    transform:translate(0%,90%);
+    width:100%;
+    height: 400px;
+    position:absolute;
+    top:90%;
+}
+h1{
+    color:white;
+    position:absolute;
+    top:90%;
+    left:37%;
+    font-size: 60px;
+}
+.pro{
+    position: absolute;
+    top:105%;
+    left:37%;
+    background:white;
+    border-radius: 15px;
+    text-align:center;
+    width:250px;
+    height:200px;
+}
+.projects{
+    font-size:20px;
+    color:blue;
+    opacity:3.0;
+}
+.Experience{
+    position: absolute;
+    top:105%;
+    left:51%;
+    background:white;
+    border-radius: 15px;
+    text-align:center;
+    width:250px;
+    height:200px;
+}
+.intern{
+    font-size:20px;
+    color:blue;
+    opacity:3.0;
+}
